@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['head', 'helmet', 'person']
+
+roboflow:
+  workspace: gbc-tdplg
+  project: helmet-no-helmet
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gbc-tdplg/helmet-no-helmet/dataset/1
